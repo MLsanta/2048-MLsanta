@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.blockContainer {
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows: repeat(4, 180px);
+    gap: 20px;
+    background-color: brown;
+    justify-content: center;
+    align-content: center;
+}
+.block {
+    background-color: wheat;
+    border-radius: 10px;
+    font-size: 80px;
+    text-align: center;
+    line-height: 180px;
+}
+#title {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+}
+#scoreType {
+    color: darkred;
+}
+#scorePad {
+    display: flex;
+}
